@@ -1,0 +1,98 @@
+html{
+    font-size: 28px;/*px quiere decir 'pixeles': el tamaño fuente de la base es ahora 10 pixeles de altura*/
+
+    font-family: "Open Sans", sans-serif;/*Este debe de ser el resto del resultado que obtuviste de google Fonts*/
+}
+
+h1,h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+#main-header {
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 60px;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+#main-header a {
+    color: white;
+}
+
+nav ul li{
+    font-size:20px ;
+    font-family: "Open Sans", sans-serif;
+}
+/*
+ * Logo
+ */
+#logo-header {
+    float: left;
+    padding: 7px 0 0 590px;
+    text-decoration: none;
+}
+#logo-header:hover {
+    color: #8d9292;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+/*
+ * Navegación boton pa arriba
+ */
+/*posicion del boton*/
+nav {
+	float: right;
+}
+/*margen a la derecha*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+/*tamaño del texto*/
+nav ul li {
+    display: inline-block;
+    line-height: 45px;
+}
+
+/*tamaño boton*/
+nav ul li a {
+    display: block;
+    padding: 3 5px;
+    text-decoration: none;
+}
+
+/*cambio de color cuando el mouse esta encima*/
+nav ul li a:hover {
+    background: #abafb1;
+}
+
+/*fin de navegacion*/
+
+
